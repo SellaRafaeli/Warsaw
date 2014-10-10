@@ -1,4 +1,4 @@
 Warsaw
 ======
 
-A web-service testing tool.
+Warsaw (pronounced 'Varsha') is an HTTP web-service testing tool.
