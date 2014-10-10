@@ -9,9 +9,7 @@ GEM
     colorize (0.7.3)
     columnize (0.8.9)
     debugger-linecache (1.2.0)
-    http (0.6.2)
-      http_parser.rb (~> 0.6.0)
-    http_parser.rb (0.6.0)
+    httpclient (2.4.0)
     json (1.8.1)
     method_source (0.8.2)
     pry (0.10.1)
@@ -28,6 +26,6 @@ PLATFORMS
 
 DEPENDENCIES
   colorize
-  http
+  httpclient
   json
   pry-byebug
