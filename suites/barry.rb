@@ -22,7 +22,6 @@ def test_users
 	res = get '/current_user/me'
 	assert(res._id == user_id, 'got "me" using cookie')
 	
-	
 	res = post_json '/current_user/updateMe', data: {city: 'London'}
 	res = (get '/current_user/me')
 	assert res.city == 'London', "set & get city as London"
