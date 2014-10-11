@@ -8,6 +8,23 @@ Warsaw ships with a sample Node server and test suite, as well as with a test su
 
 Warsaw is tiny and you are encouraged to browse and understand the entire source code in order to better test suites.
 
+## Usage 
+
+	$ git clone https://github.com/SellaRafaeli/warsaw
+	$ cd warsaw; bundle install
+	$ #write test suite and ensure server being tested is running
+	$ ruby warsaw suite_name
+
+## Example Node Server
+	
+	Warsaw ships with an example node server and suite. 
+	$ cd warsaw
+	$ cd node_sample_service/; npm install; node server
+	# new shell
+	$ cd warsaw
+	$ ruby warsaw node_sample
+
+
 ## Features
 	- get and post JSON
 	- emulate use of cookies
