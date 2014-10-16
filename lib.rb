@@ -29,6 +29,8 @@ end
 
 def parse_http_response(res)	
 	JSON.parse res.body
+rescue => e
+	{warsaw_parsing_error: e.to_s}
 end
 
 def get(route, params = {})	
