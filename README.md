@@ -31,7 +31,7 @@ Warsaw is tiny and you are encouraged to browse and understand the entire source
 ![](http://f.cl.ly/items/3B1Z0P3e2V0Q2g1T1c1E/Image%202014-10-11%20at%201.16.26%20PM.png)
 
 ## Writing a test suite
-	Test suite's DSL are extremely lightweight and include GET, POST, and assert. An example suite might look like this:
+Test suite's DSL are extremely lightweight and include GET, POST, and assert. An example suite might look like this:
 
 ![](http://f.cl.ly/items/2Y2w0t071C0m362P3a2k/Image%202014-10-11%20at%201.24.31%20PM.png)
 
